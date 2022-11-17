@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(245, 239, 189);
+    left: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+}
+.menu-sidebar{
+    text-align: right;
+    font-size: larger;
+    background-color: white;
+}
+.header-img{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+    font-size:xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.page-wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.header-img{
+    max-width: auto;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 0px;
+    text-align: center;
+}
+.item1{
+    font-size: larger;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+}
+.item2{
+    font-size: larger;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+}
+.item3{
+    font-size: larger;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+}
+.footer{
+    text-align: right;
+    font-style: italic;
+}
+.name{
+    font-size:large;
+}
+.id{
+    font-size:medium;
+}
